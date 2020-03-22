@@ -21,12 +21,20 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 3 - turn right.
 
 ## Getting Started
-**Environment** 
-The used environment for Windows 64 :
-[Banan Envoronment](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-**Framework**
-anaconda-spyder4 - python 3.6 - pytorch
+1. Download [Anaconda](https://www.anaconda.com/distribution/) and install it.
+2. Run the 'anaconda prompt' and use below commands to creat an environment and install python 3.6
+> conda create --name drlnd python=3.6 <br/>
+> activate drlnd 
+3. Open anaconda navigator, select drland in the anaconda environments, install and launch spyder. I have used spyder to run my codes. You may use another interface. 
+4. I have used Unity's rich environments to train and design the algorithms.<br/>
+Download the used environment for Windows 64 :
+[Banan Envoronment](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)<br/>
+2. Install [unity ml-agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md), [numpy](https://numpy.org/) and [pytorch](https://pytorch.org/)through shown links.
+
+
+
+
 
 ## Instructions
 I have solved the project by Deep Q-Networks and also considering the 'Experience Replay' and 'Fixed Q Targets' to improvement the training.The main used reference to solve this project is the udacity [DQN exercises](https://github.com/udacity/deep-reinforcement-learning/tree/master/dqn). <br/>
