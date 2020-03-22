@@ -41,17 +41,22 @@ add(): It appends the samples to the memory
 sample(): It randomly samples a batch of experience steps in the memory.
 
 ### used parameters
-BUFFER_SIZE = int(1e5)  # replay buffer size
-BATCH_SIZE = 64         # minibatch size
-GAMMA = 0.99            # discount factor
-TAU = 1e-3              # for soft update of target parameters
-LR = 5e-4               # learning rate 
+BUFFER_SIZE = int(1e5)  # replay buffer size<br/>
+BATCH_SIZE = 64         # minibatch size<br/>
+GAMMA = 0.99            # discount factor<br/>
+TAU = 1e-3              # for soft update of target parameters<br/>
+LR = 5e-4               # learning rate <br/>
 UPDATE_EVERY = 4        # how often to update the network
 
 ### Result
 
+<img src="https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/images/scores.png" />
 
 
+<img src="https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/images/scoretrend.png" />
 
 
+### Ideas for future work
+
+As discussed in the Udacity Course, a further evolution to this project would be to train the agent directly from the environment's observed raw pixels instead of using the environment's internal states (37 dimensions)
 
