@@ -47,6 +47,8 @@ It implements a fixed-size buffer to store experience tuples (state, action, rew
 > * add(): It appends the samples to the memory
 > * sample(): It randomly samples a batch of experience steps in the memory.
 
+**model_weights.pth**: This stores the trained weights. 
+
 ### used parameters
 BUFFER_SIZE = int(1e5)   &nbsp; &nbsp; replay buffer size<br/>
 BATCH_SIZE = 64         &nbsp; &nbsp; minibatch size<br/>
