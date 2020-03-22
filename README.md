@@ -29,8 +29,8 @@ The used environment for Windows 64 :
 anaconda-spyder4 - python 3.6 - pytorch
 
 ## Instructions
-I have solved the project by Deep Q-Networks and also considering the 'Experience Replay' and 'Fixed Q Targets' to improvement the training. You can find the solution by refering to [training code](https://github.com/HadisAB/Navigation-DRL-Udacity/tree/master/Training%20code) and using below clarification. <br/>
-To find the details of how you should use the code, refer to the [report](https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/Report.md). 
+I have solved the project by Deep Q-Networks and also considering the 'Experience Replay' and 'Fixed Q Targets' to improvement the training.The main used reference to solve this project is the udacity [DQN exercises](https://github.com/udacity/deep-reinforcement-learning/tree/master/dqn). <br/>
+You can find the solution of this project by refering to [training code](https://github.com/HadisAB/Navigation-DRL-Udacity/tree/master/Training%20code), also to find the details of how you should use the code, refer to the [report](https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/Report.md). 
 
 
 
