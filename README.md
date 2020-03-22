@@ -2,8 +2,6 @@
 P1-Navigation- Udacity Deep Reinforcement Learning Nanodegree Program
 
 ## Project details
-
-### Description
 For this project, I will train an agent to navigate (and collect yellow bananas!) in a large, square world.
 
 
