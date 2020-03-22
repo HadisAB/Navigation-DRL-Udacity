@@ -29,20 +29,23 @@ The used environment for Windows 64 :
 ### Solution
 I have solved the project by Deep Q-Networks and also considering the 'Experience Replay' and 'Fixed Q Targets' to improvement the training. You can find the solution by refering to [training code](https://github.com/HadisAB/Navigation-DRL-Udacity/tree/master/Training%20code) and using below clarification. <br/>
 
+**Navigation.py**: This is the main script which shows the intersections between the environment and agent by using following functions. <br/>
+
 **model.py** : This is a neural network consists of two hidden layers with 64 nodes. I have also used Relu function as activation function.<br/>
+
 **dqn_agent.py** : This is a class of agents activites which make agent be trained. <br/>
 In this part, the agent will take samples in RelayBuffer and also will be trained for each 4 steps. Consider below used functions for more details:<br/>
 
-*Agent class: <br/>
-*step() : It stores a step taken by the agent in the Replay Buffer. Then the agent will be learnt Every 4 steps.
-*act(): This returns actions for the given state based on an Epsilon-greedy.
-*learn(): This update the Neural Network value parameters.
-*soft_update(): It updates the value from the target Neural Network from the local network weights (That's part of the Fixed Q Targets technique).
+**Agent class**: <br/>
+ > * step() : It stores a step taken by the agent in the Replay Buffer. Then the agent will be learnt Every 4 steps.
+> * act(): This returns actions for the given state based on an Epsilon-greedy.
+> * learn(): This update the Neural Network value parameters.
+> * soft_update(): It updates the value from the target Neural Network from the local network weights (That's part of the Fixed Q Targets technique).
 
-*ReplayBuffer class:
+**ReplayBuffer class**:<br/>
 It implements a fixed-size buffer to store experience tuples (state, action, reward, next_state, done)
-*add(): It appends the samples to the memory
-*sample(): It randomly samples a batch of experience steps in the memory.
+> * add(): It appends the samples to the memory
+> * sample(): It randomly samples a batch of experience steps in the memory.
 
 ### used parameters
 BUFFER_SIZE = int(1e5)  # replay buffer size<br/>
@@ -62,5 +65,5 @@ UPDATE_EVERY = 4        # how often to update the network
 
 ### Ideas for future work
 
-As discussed in the Udacity Course, a further evolution to this project would be to train the agent directly from the environment's observed raw pixels instead of using the environment's internal states (37 dimensions)
+As discussed in the Udacity Course, a further evolution to this project would be to train the agent directly from the environment's observed raw pixels instead of using the environment's internal states (37 dimensions).
 
