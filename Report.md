@@ -37,7 +37,7 @@ I have solved the project by Deep Q-Networks and also considering the 'Experienc
 In this part, the agent will take samples in RelayBuffer and also will be trained for each 4 steps. Consider below used functions for more details:<br/>
 
 **Agent class**: <br/>
- > * step() : It stores a step taken by the agent in the Replay Buffer. Then the agent will be learnt Every 4 steps.
+> * step() : It stores a step taken by the agent in the Replay Buffer. Then the agent will be learnt Every 4 steps.
 > * act(): This returns actions for the given state based on an Epsilon-greedy.
 > * learn(): This update the Neural Network value parameters.
 > * soft_update(): It updates the value from the target Neural Network from the local network weights (That's part of the Fixed Q Targets technique).
@@ -48,12 +48,12 @@ It implements a fixed-size buffer to store experience tuples (state, action, rew
 > * sample(): It randomly samples a batch of experience steps in the memory.
 
 ### used parameters
-BUFFER_SIZE = int(1e5)  # replay buffer size<br/>
-BATCH_SIZE = 64         # minibatch size<br/>
-GAMMA = 0.99            # discount factor<br/>
-TAU = 1e-3              # for soft update of target parameters<br/>
-LR = 5e-4               # learning rate <br/>
-UPDATE_EVERY = 4        # how often to update the network
+BUFFER_SIZE = int(1e5)   &nbsp; &nbsp; replay buffer size<br/>
+BATCH_SIZE = 64         &nbsp; &nbsp; minibatch size<br/>
+GAMMA = 0.99            &nbsp; &nbsp; discount factor<br/>
+TAU = 1e-3              &nbsp; &nbsp; for soft update of target parameters<br/>
+LR = 5e-4               &nbsp; &nbsp; learning rate <br/>
+UPDATE_EVERY = 4        &nbsp; &nbsp; how often to update the network
 
 ### Result
 
