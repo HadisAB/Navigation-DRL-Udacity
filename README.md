@@ -31,7 +31,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 Download the used environment for Windows 64 :
 [Banan Envoronment](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)<br/>
 5. Install [unity ml-agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md), [numpy](https://numpy.org/) and [pytorch](https://pytorch.org/) through shown links.
-6. install matplotlib.pyplot by using below command in 'anaconda prompt':<br/>
+6. Install matplotlib.pyplot by using below command in 'anaconda prompt':<br/>
 > pip install matplotlib.pyplot
 
 
@@ -43,9 +43,9 @@ Follow below steps to run the code:
 1. Install all required dependencies of the project based on above links.
 2. Download the [dqn-agent.py](https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/Training%20code/dqn_agent.py), [model.py](https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/Training%20code/model.py) and [Navigation.py](https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/Training%20code/navigation.py) files from [training code](https://github.com/HadisAB/Navigation-DRL-Udacity/tree/master/Training%20code).
 3. Put all the downloded .py files in one folder.
-4. Open the navigation.py in spyder and Run the code.
+4. Open the [Navigation.py](https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/Training%20code/navigation.py) in spyder and Run the code.
 
-<br/>
+
 Also refer to the [report](https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/Report.md) for more clarification of the method. 
 
 
