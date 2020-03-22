@@ -27,21 +27,22 @@ The used environment for Windows 64 :
 
 
 ### Solution
-I have solved the project by Deep Q-Networks and also considering the 'Experience Replay' and 'Fixed Q Targets' to improvement the training.
+I have solved the project by Deep Q-Networks and also considering the 'Experience Replay' and 'Fixed Q Targets' to improvement the training. You can find the solution by refering to [training code](https://github.com/HadisAB/Navigation-DRL-Udacity/tree/master/Training%20code) and using below clarification. <br/>
 
-model.py : This is a neural network consists of two hidden layers with 64 nodes. I have also used Relu function as activation function.
-dqn_agent.py : This is a class of agents activites which make agent trained. 
-In this part, the agent will take samples in RelayBuffer and also will be trained for each 4 steps. Consider below used functions for more details:
-Agent class:
-step() : It stores a step taken by the agent in the Replay Buffer. Then the agent will be learnt Every 4 steps.
-act(): This returns actions for the given state based on an Epsilon-greedy.
-learn(): This update the Neural Network value parameters.
-soft_update(): It updates the value from the target Neural Network from the local network weights (That's part of the Fixed Q Targets technique).
+**model.py** : This is a neural network consists of two hidden layers with 64 nodes. I have also used Relu function as activation function.<br/>
+**dqn_agent.py** : This is a class of agents activites which make agent be trained. <br/>
+In this part, the agent will take samples in RelayBuffer and also will be trained for each 4 steps. Consider below used functions for more details:<br/>
 
-ReplayBuffer class:
+*Agent class: <br/>
+*step() : It stores a step taken by the agent in the Replay Buffer. Then the agent will be learnt Every 4 steps.
+*act(): This returns actions for the given state based on an Epsilon-greedy.
+*learn(): This update the Neural Network value parameters.
+*soft_update(): It updates the value from the target Neural Network from the local network weights (That's part of the Fixed Q Targets technique).
+
+*ReplayBuffer class:
 It implements a fixed-size buffer to store experience tuples (state, action, reward, next_state, done)
-add(): It appends the samples to the memory
-sample(): It randomly samples a batch of experience steps in the memory.
+*add(): It appends the samples to the memory
+*sample(): It randomly samples a batch of experience steps in the memory.
 
 ### used parameters
 BUFFER_SIZE = int(1e5)  # replay buffer size<br/>
