@@ -6,6 +6,10 @@ P1-Navigation- Udacity Deep Reinforcement Learning Nanodegree Program
 ### Description
 For this project, I will train an agent to navigate (and collect yellow bananas!) in a large, square world.
 
+
+<img src="https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/images/envexample.png" />
+
+
 ### Goal
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
@@ -19,11 +23,11 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 3 - turn right.
 
 ## Getting Started
-### Environment
+**Environment** 
 The used environment for Windows 64 :
 [Banan Envoronment](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-### Framework: 
+**Framework**
 anaconda-spyder4 - python 3.6 - pytorch
 
 ## Instructions
