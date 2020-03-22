@@ -4,7 +4,10 @@ P1-Navigation
 used environments: anaconda-spyder4 - python 3.6
 
 ### Description
-For this project, I will train an agent to navigate (and collect bananas!) in a large, square world.
+For this project, I will train an agent to navigate (and collect bananas!) in a large, square world.<br/>
+[environment view] (https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/images/videoexample.mp4)
+
+
 
 ### Goal
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
