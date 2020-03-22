@@ -1,7 +1,7 @@
 # Navigation-DRL-Udacity
 P1-Navigation- Udacity Deep Reinforcement Learning Nanodegree Program
 
-Framework: anaconda-spyder4 - python 3.6 - pytorch
+## Project details
 
 ### Description
 For this project, I will train an agent to navigate (and collect yellow bananas!) in a large, square world.
@@ -18,9 +18,17 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 2 - turn left.<br/>
 3 - turn right.
 
+## Getting Started
 ### Environment
 The used environment for Windows 64 :
 [Banan Envoronment](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+
+### Framework: 
+anaconda-spyder4 - python 3.6 - pytorch
+
+## Instructions
+I have solved the project by Deep Q-Networks and also considering the 'Experience Replay' and 'Fixed Q Targets' to improvement the training. You can find the solution by refering to [training code](https://github.com/HadisAB/Navigation-DRL-Udacity/tree/master/Training%20code) and using below clarification. <br/>
+To find the details of how you should use the code, refer to the [report](https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/Report.md). 
 
 
 
