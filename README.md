@@ -30,15 +30,23 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 4. I have used Unity's rich environments to train and design the algorithms.<br/>
 Download the used environment for Windows 64 :
 [Banan Envoronment](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)<br/>
-2. Install [unity ml-agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md), [numpy](https://numpy.org/) and [pytorch](https://pytorch.org/)through shown links.
-
-
+5. Install [unity ml-agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md), [numpy](https://numpy.org/) and [pytorch](https://pytorch.org/) through shown links.
+6. install matplotlib.pyplot by using below command in 'anaconda prompt':<br/>
+> pip install matplotlib.pyplot
 
 
 
 ## Instructions
-I have solved the project by Deep Q-Networks and also considering the 'Experience Replay' and 'Fixed Q Targets' to improvement the training.The main used reference to solve this project is the udacity [DQN exercises](https://github.com/udacity/deep-reinforcement-learning/tree/master/dqn). <br/>
-You can find the solution of this project by refering to [training code](https://github.com/HadisAB/Navigation-DRL-Udacity/tree/master/Training%20code), also to find the details of how you should use the code, refer to the [report](https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/Report.md). 
+I have solved the project by Deep Q-Networks and also considering the 'Experience Replay' and 'Fixed Q Targets' to improvement the training. The main used reference to solve this project is the udacity [DQN exercises](https://github.com/udacity/deep-reinforcement-learning/tree/master/dqn). <br/>
+
+Follow below steps to run the code:
+1. Install all required dependencies of the project based on above links.
+2. Download the [dqn-agent.py](https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/Training%20code/dqn_agent.py), [model.py](https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/Training%20code/model.py) and [Navigation.py](https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/Training%20code/navigation.py) files from [training code](https://github.com/HadisAB/Navigation-DRL-Udacity/tree/master/Training%20code).
+3. Put all the downloded .py files in one folder.
+4. Open the navigation.py in spyder and Run the code.
+
+<br/>
+Also refer to the [report](https://github.com/HadisAB/Navigation-DRL-Udacity/blob/master/Report.md) for more clarification of the method. 
 
 
 
